@@ -1,6 +1,7 @@
 # Changelog
 
 ### Printable assembly instructions refinement
+- Floor footprint Optional/Required buttons now update a selected floor link directly and set the status of newly placed floor links, including Auto mode. Bulk removal continues to protect required links.
 - Changed step-by-step assembly pages to two columns, read left-to-right and down across additional pages.
 - Each step now displays labeled part counts with icons, including the highlighted links, applicable connector fittings, and free-end support caps.
 - Retained automatic focus and zoom on the currently highlighted assembly components.

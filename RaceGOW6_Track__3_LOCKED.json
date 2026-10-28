@@ -1,0 +1,374 @@
+{
+  "name": "RaceGOW6_Track _3",
+  "version": 65,
+  "gridSize": 6,
+  "kitLimited": false,
+  "readOnly": false,
+  "editPolicy": "floor-and-support-only",
+  "edges": [
+    {
+      "a": [
+        3,
+        5,
+        0
+      ],
+      "b": [
+        3,
+        5,
+        1
+      ],
+      "kind": "start",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        5,
+        1
+      ],
+      "b": [
+        4,
+        5,
+        1
+      ],
+      "kind": "start",
+      "required": false
+    },
+    {
+      "a": [
+        4,
+        5,
+        1
+      ],
+      "b": [
+        4,
+        5,
+        0
+      ],
+      "kind": "start",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        2,
+        0
+      ],
+      "b": [
+        3,
+        2,
+        1
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        2,
+        1
+      ],
+      "b": [
+        3,
+        3,
+        1
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        3,
+        1
+      ],
+      "b": [
+        3,
+        4,
+        1
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        4,
+        1
+      ],
+      "b": [
+        3,
+        5,
+        1
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        4,
+        1
+      ],
+      "b": [
+        3,
+        4,
+        0
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        3,
+        1
+      ],
+      "b": [
+        3,
+        3,
+        0
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        2,
+        1
+      ],
+      "b": [
+        4,
+        2,
+        1
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        4,
+        2,
+        1
+      ],
+      "b": [
+        4,
+        2,
+        0
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2,
+        2
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        2,
+        2
+      ],
+      "b": [
+        2,
+        2,
+        2
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        2,
+        2,
+        2
+      ],
+      "b": [
+        2,
+        2,
+        1
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        2,
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        0
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        2,
+        2
+      ],
+      "b": [
+        3,
+        2,
+        3
+      ],
+      "kind": "flag",
+      "required": false
+    },
+    {
+      "a": [
+        2,
+        2,
+        0
+      ],
+      "b": [
+        3,
+        2,
+        0
+      ],
+      "kind": "ground",
+      "required": false
+    },
+    {
+      "a": [
+        4,
+        2,
+        0
+      ],
+      "b": [
+        3,
+        2,
+        0
+      ],
+      "kind": "ground",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        3,
+        0
+      ],
+      "b": [
+        3,
+        4,
+        0
+      ],
+      "kind": "ground",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        3,
+        0
+      ],
+      "b": [
+        3,
+        2,
+        0
+      ],
+      "kind": "ground",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        4,
+        0
+      ],
+      "b": [
+        3,
+        5,
+        0
+      ],
+      "kind": "ground",
+      "required": false
+    },
+    {
+      "a": [
+        4,
+        5,
+        0
+      ],
+      "b": [
+        3,
+        5,
+        0
+      ],
+      "kind": "ground",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        5,
+        1
+      ],
+      "b": [
+        3,
+        5,
+        2
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        5,
+        2
+      ],
+      "b": [
+        3,
+        4,
+        2
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        4,
+        2
+      ],
+      "b": [
+        3,
+        3,
+        2
+      ],
+      "kind": "auto",
+      "required": false
+    },
+    {
+      "a": [
+        3,
+        3,
+        2
+      ],
+      "b": [
+        3,
+        2,
+        2
+      ],
+      "kind": "auto",
+      "required": false
+    }
+  ]
+}

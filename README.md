@@ -51,7 +51,7 @@ The RaceGOW race team and community are welcome to try and share the application
 
 ## Permissions and license
 
-Refer to the repository’s [`LICENSE`](LICENSE) file for the applicable permissions and conditions. See also [`LICENSING.md`](LICENSING.md) for additional project guidance. The license text should be consulted directly; this README does not override it.
+Refer to the repository’s [`LICENSE`](LICENSE) file for the applicable permissions and conditions. 
 
 ## Disclaimer
 

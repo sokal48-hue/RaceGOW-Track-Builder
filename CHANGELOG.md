@@ -1,24 +1,37 @@
 # Changelog
 
-### Printable assembly instructions refinement
-- Floor footprint Optional/Required buttons now update a selected floor link directly and set the status of newly placed floor links, including Auto mode. Bulk removal continues to protect required links.
-- Changed step-by-step assembly pages to two columns, read left-to-right and down across additional pages.
-- Each step now displays labeled part counts with icons, including the highlighted links, applicable connector fittings, and free-end support caps.
-- Retained automatic focus and zoom on the currently highlighted assembly components.
+This changelog covers the public RaceGOW Track Designer and the separately developed Flight Path Designer prototype.
 
-## [V71] — Editor and build-guide improvements
+## Website / distribution update — permanent app filenames
 
-- Updated step-by-step build instructions to center and zoom each assembly view on the highlighted component for clearer identification.
-- Added **Master Reset** to clear the entire workspace and begin a new design without refreshing the browser, even after importing a locked track.
-- Added **Required** and **Optional** choices for floor-footprint links.
-- Protected required floor-footprint links from bulk floor-link addition/removal operations; bulk removal targets optional links only.
-- Added a right-click context menu for selected links in the 3D grid, with endpoint selection, eligible floor-link status changes, and link removal.
-- Retained protections that restrict edits to the main structure of imported locked tracks.
+- Added a GitHub Pages landing page (`index.html`) for launching the tools online.
+- Standardized the public application filenames to **`Designer.html`** (Track Designer V71) and **`Route.html`** (Flight Path Designer V28 prototype).
+- Updated homepage launch and standalone-download links to those stable filenames; later versions can replace these files without changing homepage URLs.
+- This is a **distribution and documentation update**, not a new application version.
 
-## [V70] — Initial public release
+## Track Designer V71 — Editor and build-guide improvements
 
-- Declared the RaceGOW physical track designer feature-complete for first public distribution.
-- Added visible version identification in the upper-right header.
-- Includes 3D construction, inventory tracking, structural presets, floor/support tools, JSON import/export, protected layout exports, and printable build instructions.
+- Focused and zoomed assembly illustrations around the highlighted parts.
+- Displayed two build steps side-by-side, flowing downward and onto additional pages.
+- Added step-level part names, icons, and quantities.
+- Added **Master Reset**, including reset after importing a locked layout.
+- Added **Required / Optional** floor-footprint selection for newly added links, including Auto mode, and eligible selected floor links.
+- Protected existing required floor-footprint links during bulk floor additions/removals.
+- Added right-click context actions for selected links, including endpoints, applicable floor-link classification, and removal.
+- Restored complete embedded RaceGOW artwork after a partial-image issue.
+- Maintained protected-track edit restrictions.
 
-Earlier development iterations are not individually documented in this public release package.
+## Track Designer V70 — Initial public release
+
+- First completed public version of the physical track builder.
+- Interactive 6 × 6 × 6 workspace, structure presets, connector and inventory calculations, support planning, JSON import/export and locked layouts, and printable build instructions.
+
+## Flight Path Designer V28 — Prototype progress (not public release)
+
+- Required gate sequences and directional selection before route drawing.
+- Repeated gate crossings and sequence-based path colors.
+- Freehand mouse drawing with Up/Down elevation changes while the mouse is held.
+- Editable checkpoints, turn apexes, and contextual point controls.
+- In-workspace tool controls, clean preview mode, and dashed route display.
+- Visual cleanup of clustered route points when completing a lap; editing data remains preserved.
+- Route coloring, crossing detection, and collision/clearance behavior remain experimental.
